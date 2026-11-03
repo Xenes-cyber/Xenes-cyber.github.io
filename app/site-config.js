@@ -1,0 +1,1 @@
+window.HAXI_CONFIG = {"archiveBases": ["https://raw.githubusercontent.com/Xenes-cyber/www.haxilu.com/73b1736041898ed299b1e3f4248c55bd7d2a3598/", "https://raw.githubusercontent.com/Xenes-cyber/Xenes-cyber.github.io/4fdc850118572b36d7fed9209e3599cc4512d730/"]};

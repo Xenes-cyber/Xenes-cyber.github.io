@@ -1,5 +1,10 @@
-哈西文学网
+# 哈西书库 · GitHub Pages
 
-本仓库为2023/02月对哈西文学网的现域名www.haxilu.com进行wget操作下载下来的整站，在下载过程中可能会存在一些下载失败等因素，故不保证完整性。指令为“wget -r --level=0 -E --ignore-length -x -k -p -erobots=off -np -N http://www.haxilu.com/zuozhe.php ” 哈西文学网所拥有的特色内容为较为完整的保存了一些“书籍”，虽然还是有着一些未能保存的，但已有的也足已，书籍包括但不限于罗森、萧九等人的书籍，如阿里不达年代记、拉里传奇
+网址：https://xenes-cyber.github.io/
 
-更多内容需自行探索
+此仓库的 master 根目录直接发布到 GitHub Pages，`.nojekyll` 关闭 Jekyll 处理。
+新版首页覆盖旧站，目录、界面和封面在 Pages 托管；全部正文与原站资料按需读取固定提交的 GitHub 原始存档。
+完整原始文件保存在 https://github.com/Xenes-cyber/www.haxilu.com 及本仓库的历史提交中。
+原首页备份为 archive-index.html，覆盖前的线上首页备份为 previous-site-index.html。
+
+维护代码与本地运行说明见源项目 tools/build_pages.py 和 README.md。

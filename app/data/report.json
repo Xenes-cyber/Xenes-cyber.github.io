@@ -1,0 +1,15 @@
+{
+  "books": 10399,
+  "chapters": 2796663,
+  "available": 222253,
+  "missing": 2574410,
+  "encodings": {
+    "gb18030": 20758
+  },
+  "decode_errors": [
+    {
+      "path": "files/article/html/61/61136/index.html",
+      "error": "'gb18030' codec can't decode byte 0xd4 in position 2634: incomplete multibyte sequence"
+    }
+  ]
+}

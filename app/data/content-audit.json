@@ -1,0 +1,204 @@
+{
+  "files": 222253,
+  "encodings": {
+    "gb18030": 222226,
+    "damaged": 27
+  },
+  "decode_errors": [
+    {
+      "path": "files/article/html/35/35664/2673809.html",
+      "error": "'gb18030' codec can't decode byte 0xbe in position 9912: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/68/68430/10996976.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 12788: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/36/36741/2841316.html",
+      "error": "'gb18030' codec can't decode byte 0xa1 in position 6992: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/36/36217/2666589.html",
+      "error": "'gb18030' codec can't decode byte 0xb1 in position 6992: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/36/36606/6787259.html",
+      "error": "'gb18030' codec can't decode byte 0xcb in position 2634: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/45/45540/11034716.html",
+      "error": "'gb18030' codec can't decode byte 0xbf in position 5532: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/45/45381/11070591.html",
+      "error": "'gb18030' codec can't decode byte 0xbc in position 9912: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/20/20267/1491523.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 12702: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/71/71937/11370579.html",
+      "error": "'gb18030' codec can't decode byte 0xd4 in position 2635: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/71/71221/11274246.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 9011: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/47/47308/6406250.html",
+      "error": "'gb18030' codec can't decode byte 0xd2 in position 6992: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70290/10924787.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 79927: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70290/10920855.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 35713: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70944/11280036.html",
+      "error": "'gb18030' codec can't decode byte 0xa3 in position 4072: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70305/10924383.html",
+      "error": "'gb18030' codec can't decode byte 0xb6 in position 6993: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70282/10919167.html",
+      "error": "'gb18030' codec can't decode byte 0xb3 in position 18674: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/70/70587/11031852.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 91485: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/39/39155/5972645.html",
+      "error": "'gb18030' codec can't decode byte 0xff in position 4377: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/39/39155/5972647.html",
+      "error": "'gb18030' codec can't decode byte 0xff in position 4399: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/39/39155/5972648.html",
+      "error": "'gb18030' codec can't decode byte 0xff in position 4227: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/66/66660/11281510.html",
+      "error": "'gb18030' codec can't decode byte 0xbb in position 8453: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/17/17368/1271808.html",
+      "error": "'gb18030' codec can't decode byte 0xb7 in position 6993: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/37/37718/3029696.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 13739: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/37/37718/3041796.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 27596: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/37/37718/3000988.html",
+      "error": "'gb18030' codec can't decode byte 0x80 in position 106071: illegal multibyte sequence"
+    },
+    {
+      "path": "files/article/html/38/38331/3100828.html",
+      "error": "'gb18030' codec can't decode byte 0xb4 in position 4073: incomplete multibyte sequence"
+    },
+    {
+      "path": "files/article/html/38/38870/5405166.html",
+      "error": "'gb18030' codec can't decode byte 0xd4 in position 5533: incomplete multibyte sequence"
+    }
+  ],
+  "unexpected_structure": [
+    "files/article/html/72/72009/11359201.html",
+    "files/article/html/72/72009/11359203.html",
+    "files/article/html/72/72009/11359194.html",
+    "files/article/html/72/72006/11358831.html",
+    "files/article/html/40/40056/10392350.html",
+    "files/article/html/36/36606/6787259.html",
+    "files/article/html/71/71937/11370579.html",
+    "files/article/html/71/71006/11278976.html",
+    "files/article/html/71/71006/11279159.html",
+    "files/article/html/71/71006/11282356.html",
+    "files/article/html/47/47308/6406259.html",
+    "files/article/html/70/70371/10945365.html",
+    "files/article/html/70/70673/11078742.html",
+    "files/article/html/70/70229/11214657.html",
+    "files/article/html/70/70328/10959264.html",
+    "files/article/html/70/70650/11071144.html",
+    "files/article/html/70/70944/11270517.html",
+    "files/article/html/70/70944/11282035.html",
+    "files/article/html/70/70944/11270515.html",
+    "files/article/html/70/70572/11028546.html",
+    "files/article/html/70/70634/11058468.html",
+    "files/article/html/70/70684/11082387.html",
+    "files/article/html/39/39956/9833100.html",
+    "files/article/html/66/66660/11282477.html",
+    "files/article/html/66/66660/11269017.html",
+    "files/article/html/66/66660/11269016.html",
+    "files/article/html/67/67271/11282948.html",
+    "files/article/html/67/67271/11282945.html",
+    "files/article/html/17/17289/5139573.html",
+    "files/article/html/0/537/483532.html",
+    "files/article/html/25/25734/6102894.html",
+    "files/article/html/33/33711/2197881.html",
+    "files/article/html/38/38331/3100820.html",
+    "files/article/html/38/38773/11034461.html",
+    "files/article/html/38/38870/5404993.html"
+  ],
+  "unlisted": [
+    {
+      "path": "files/article/html/23/23298/6787480.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十一章 石林隐阵-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787481.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十二章 金光余孽-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787484.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十五章 仙界规范-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787477.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第八章 合体金丹-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787474.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第五章 鸿霞扩军-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787479.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十章 尴尬比剑-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787482.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十三章 金剑金芒-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787478.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第九章 定舒师妹-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787483.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第十四章 道者大会-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787476.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第七章 冰洞被困-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/23/23298/6787475.html",
+      "title": "道行仙缘-第十卷 绝圣弃智 第六章 学堂收徒-在线阅读-哈西文学网"
+    },
+    {
+      "path": "files/article/html/71/71605/11282470.html",
+      "title": "天启之门-正文 -在线阅读-哈西文学网"
+    }
+  ]
+}
