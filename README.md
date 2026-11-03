@@ -1,10 +1,52 @@
 # 哈西书库 · GitHub Pages
 
-网址：https://xenes-cyber.github.io/
+**在线阅读：[xenes-cyber.github.io](https://xenes-cyber.github.io/)**
 
-此仓库的 master 根目录直接发布到 GitHub Pages，`.nojekyll` 关闭 Jekyll 处理。
-新版首页覆盖旧站，目录、界面和封面在 Pages 托管；全部正文与原站资料按需读取固定提交的 GitHub 原始存档。
-完整原始文件保存在 https://github.com/Xenes-cyber/www.haxilu.com 及本仓库的历史提交中。
-原首页备份为 archive-index.html，覆盖前的线上首页备份为 previous-site-index.html。
+这是哈西书库的发布仓库，沿用原站网址。书库由 2023 年 wget 下载的哈西文学网存档整理而来，使用统一界面提供搜索、分类、专题、书籍目录和阅读器。
 
-维护代码与本地运行说明见源项目 tools/build_pages.py 和 README.md。
+[完整源项目与维护说明](https://github.com/Xenes-cyber/www.haxilu.com) · [本仓库](https://github.com/Xenes-cyber/Xenes-cyber.github.io)
+
+## 使用
+
+- 支持书名／作者搜索、分类、排序和分页。
+- 九个经典专题保留原介绍、分组和书目，清除重复的旧站导航、分享栏及页脚。
+- 阅读器提供目录筛选、上一章／下一章、缺失章节提示、夜间模式与字号调整。
+- 书架、最近阅读和阅读进度保存在当前浏览器，不需要登录；不提供跨设备同步。
+- 适配桌面、平板和手机，自动识别旧文件的 UTF-8／GBK 编码。
+
+## 内容现状
+
+| 项目 | 数量 |
+| --- | ---: |
+| 书籍资料／目录 | 10,399 部 |
+| 含已保存正文的书籍 | 3,517 部 |
+| 已保存、接入阅读器的正文文件 | 222,253 个 |
+| 目录中的章节条目 | 2,796,663 条 |
+| 目录中缺失正文的条目 | 2,574,410 条 |
+
+目录条目不代表相应正文已下载。原下载存在缺失和残损：27 个正文文件含不可完整解码的字节，35 个不含标准正文节点，两类可能重叠。系统保留书目及可恢复的文字，不能补回原下载没有的数据。
+
+详细报告：[索引统计](app/data/report.json) · [文件一致性](app/data/integrity-report.json) · [原始正文检查](app/data/content-audit.json)。
+
+## 发布与正文读取
+
+- GitHub Pages 使用本仓库 `master` 分支的根目录，`.nojekyll` 关闭 Jekyll 处理。
+- 发布包约 301 MiB，托管界面、完整索引和封面。
+- 超过 4 GB 的完整原始存档保存在[源项目](https://github.com/Xenes-cyber/www.haxilu.com)和本仓库的历史提交中；专题、正文及原站资料通过 `app/site-config.js` 中的固定提交地址按需读取。
+- 在线正文加载需要访问 `raw.githubusercontent.com`。网络故障时可重试；需要离线阅读时，下载完整源项目并按其 README 启动本地服务。
+- `archive-index.html` 保留原首页，`previous-site-index.html` 保留改造前的线上首页。旧站登录、投稿及投票等后端服务不在本项目提供。
+
+仅预览本发布包可运行 `python -m http.server 8000`，然后访问 http://localhost:8000；此方式的正文仍需网络。源码、索引生成、发布构建及测试步骤请见[完整源项目 README](https://github.com/Xenes-cyber/www.haxilu.com#readme)。
+
+本文件由源项目的 `docs/PAGES_README.md` 生成。维护时更新该模板，再用 `tools/build_pages.py` 生成发布包并同步本仓库，避免下次发布覆盖文档。
+
+## 检查记录
+
+最近检查日期：**2026-11-03**。
+
+- 全量核对 10,399 部书籍索引、222,253 个正文文件的引用及统计。
+- 扫描全部正文的编码与结构异常，报告保留原下载的已知问题。
+- 浏览器回归覆盖九个专题、395 个专题链接、12 个分类、搜索、分页、书架、历史、阅读进度、字号、夜间模式、缺档与错误页面、加载失败重试。
+- 使用 1440／768／390／320 四种屏幕宽度检查布局，并抽样逐字比对新旧正文。
+
+这些检查不等同于全部章节的人工校对。发布包和 Git 推送可验证，公网 Pages 构建完成状态请在 GitHub 的 Pages／Actions 中确认。
